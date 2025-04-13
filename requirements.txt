@@ -1,10 +1,10 @@
-streamlit==1.44.1
-streamlit-webrtc==0.62.4
+streamlit==1.23.1  # 必须锁定版本
+streamlit-webrtc==0.47.1  # 兼容版本
 
-mediapipe==0.10.21
+mediapipe==0.10.13
 
-opencv-contrib-python==4.11.0.86
-opencv-python==4.11.0.86
+opencv-python-headless==4.5.5.64  # 关键修改！必须使用此版本
 
-numpy==1.26.4
-pillow==11.1.0
+numpy==1.21.5
+
+Pillow==9.5.0  # 兼容版本
