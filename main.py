@@ -1,12 +1,19 @@
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
-import cv2
 import mediapipe as mp
 import math
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import av
 import os
+
+try:
+    import cv2
+    print(f"OpenCV版本: {cv2.__version__}")  # 调试输出
+except ImportError:
+    import sys
+    print("OpenCV导入失败，PATH:", sys.path)
+    raise
 
 def cv2_put_text(img, text, pos, font_path, font_size, color):
     """使用PIL在OpenCV图像上绘制中文"""
