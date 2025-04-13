@@ -1,6 +1,7 @@
 streamlit==1.23.1
 streamlit-webrtc==0.47.1
-mediapipe==0.10.13
+mediapipe==0.8.11  # 更旧但更稳定的版本
+opencv-python-headless==4.5.1.48
 opencv-python-headless==4.5.5.64  # 必须使用这个精确版本
 numpy==1.21.5
 Pillow==9.5.0
