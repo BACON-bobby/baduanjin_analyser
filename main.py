@@ -60,7 +60,8 @@ class BaduanjinWeb(VideoTransformerBase):
         }
 
         # 初始化模型
-        self.holistic = self.mp_holistic.Holistic(
+        self.holistic = mp.solutions.holistic.Holistic(
+            static_image_mode=False,  # 必须添加此参数(静态图像模式)
             min_detection_confidence=0.8,
             min_tracking_confidence=0.8,
             model_complexity=1
