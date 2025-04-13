@@ -1,6 +1,7 @@
-streamlit>=1.23.1
-streamlit-webrtc>=0.47.1
-mediapipe>=0.10.13  # 使用Streamlit Cloud支持的版本
-opencv-python-headless==4.5.5.64
-numpy>=1.21.5
-Pillow>=9.0.1
+# requirements.txt
+streamlit==1.23.1
+streamlit-webrtc==0.47.1
+mediapipe-silicon==0.10.13  # 专门为云环境优化的版本
+opencv-python-headless==4.8.0.76  # 最新稳定无头版本
+numpy==1.26.0  # 升级到兼容版本
+Pillow==10.0.0  # 最新稳定版
