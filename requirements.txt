@@ -1,9 +1,9 @@
 streamlit==1.23.1  # 必须锁定版本
 streamlit-webrtc==0.47.1  # 兼容版本
 
-mediapipe==0.10.13
+mediapipe==0.8.6
 
-opencv-python-headless==4.5.5.64  # 关键修改！必须使用此版本
+opencv-python==4.5.1.48  # 或者其他较为稳定的版本
 
 numpy==1.22.0
 
