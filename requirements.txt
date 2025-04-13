@@ -1,12 +1,6 @@
-# 核心依赖（严格匹配）
-streamlit==1.23.1
-streamlit-webrtc==0.47.1
-mediapipe==0.10.0
-opencv-python==4.5.5.64
-
-# 次级依赖（宽松范围）
-numpy>=1.21.5,<2.0.0
-Pillow>=9.0.1,<10.0.0
-
-# 开发工具（可选）
-pytest==7.4.0  # 测试用
+streamlit>=1.23.1
+streamlit-webrtc>=0.47.1
+mediapipe>=0.10.13  # 使用Streamlit Cloud支持的版本
+opencv-python>=4.5.5
+numpy>=1.21.5
+Pillow>=9.0.1
