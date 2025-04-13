@@ -1,0 +1,1 @@
+python-3.10.13  # MediaPipe 兼容的最高版本
